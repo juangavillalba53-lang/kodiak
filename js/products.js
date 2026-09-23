@@ -53,6 +53,46 @@ const RAW_PRODUCTS = [
     "assets/productos/black.png"
   ],
   [
+    "Delta Reign Booster Box",
+    "pokemon",
+    "Rara",
+    true,
+    "Booster Box de Pokémon: Delta Reign.",
+    "assets/productos/delta.png"
+  ],
+  [
+    "Grafaiai ex Box",
+    "pokemon",
+    "Rara",
+    false,
+    "Caja de colección Grafaiai ex con carta promocional, carta jumbo y sobres de Pokémon TCG.",
+    "assets/productos/grafa.png"
+  ],
+  [
+    "Destined Rivals Booster Box",
+    "pokemon",
+    "Rara",
+    false,
+    "Booster Box de Pokémon Scarlet & Violet: Destined Rivals.",
+    "assets/productos/destined.png"
+  ],
+  [
+    "Pitch Black Build & Battle Box",
+    "pokemon",
+    "Rara",
+    false,
+    "Build & Battle Box de Pokémon Mega Evolution: Pitch Black.",
+    "assets/productos/pitch.png"
+  ],
+  [
+    "Prismatic Evolutions Tech Sticker Collection",
+    "pokemon",
+    "Rara",
+    false,
+    "Colección Tech Sticker Collection de Pokémon Scarlet & Violet: Prismatic Evolutions con carta promocional, stickers y sobres.",
+    "assets/productos/sticker.png"
+  ],
+  [
     "Destined Rivals Elite Trainer Box",
     "pokemon",
     "Rara",
@@ -64,76 +104,409 @@ const RAW_PRODUCTS = [
     "Silver Tempest Elite Trainer Box",
     "pokemon",
     "Rara",
-    true,
+    false,
     "Elite Trainer Box de Pokémon Sword & Shield: Silver Tempest.",
     "assets/productos/silver.png"
   ],
-  ["Tin de Lata – Paldea Evolved", "pokemon", "Rara", false, "Lata coleccionable con 3 sobres y carta foil."],
-  ["Deck de Batalla – Sword & Shield", "pokemon", "Común", false, "Mazo listo para jugar de 60 cartas."],
-  ["Caja Coleccionista – Pokémon Center", "pokemon", "Secreta", false, "Edición especial con arte exclusivo."],
-  ["Sobre Individual – Twilight Masquerade", "pokemon", "Común", false, "Sobre suelto de la expansión más reciente."],
-  ["Mini Portfolio 60 Cartas", "pokemon", "Común", false, "Álbum portátil para transportar tu mazo."],
-  ["Bundle Pokémon – 6 Sobres + Promo", "pokemon", "Rara", false, "Pack combo pensado para nuevos jugadores."],
+  [
+    "First Partner Illustration Collection Series 3",
+    "pokemon",
+    "Rara",
+    false,
+    "Colección First Partner Illustration Collection Series 3 con cartas promocionales y sobres.",
+    "assets/productos/serie3.png"
+  ],
+  [
+    "Ninetales ex Deluxe Battle Deck",
+    "pokemon",
+    "Rara",
+    false,
+    "Deluxe Battle Deck de Ninetales ex listo para jugar con mazo preconstruido de 60 cartas.",
+    "assets/productos/deluxe.png"
+  ],
+  [
+    "Annihilape ex Box",
+    "pokemon",
+    "Rara",
+    false,
+    "Caja Annihilape ex con carta promocional, carta jumbo y sobres de Pokémon TCG.",
+    "assets/productos/anni.png"
+  ],
+  [
+    "Pokémon Fall 2024 Mini Tin Display",
+    "pokemon",
+    "Rara",
+    false,
+    "Display de Mini Tins Pokémon con latas coleccionables y sobres de Pokémon TCG.",
+    "assets/productos/tin.png"
+  ],
+  [
+    "Koraidon & Miraidon Collector Chest",
+    "pokemon",
+    "Rara",
+    false,
+    "Collector Chest de Pokémon con Koraidon y Miraidon, incluye sobres y artículos coleccionables.",
+    "assets/productos/lata.png"
+  ],
 
   // ---------- ONE PIECE TCG ----------
-  ["Booster Box – OP-10 Royal Blood", "onepiece", "Común", true, "36 sobres de la décima expansión oficial."],
-  ["Starter Deck – Straw Hat Crew", "onepiece", "Rara", true, "Mazo temático de la tripulación de Luffy."],
-  ["Display Doble Parallel – OP-07", "onepiece", "Ultra Rara", false, "Caja con cartas de arte alternativo garantizado."],
-  ["Caja Coleccionista – Ace Edition", "onepiece", "Secreta", true, "Edición limitada con playmat incluido."],
-  ["Sobre Individual – OP-09", "onepiece", "Común", false, "Sobre suelto de Emperors in the New World."],
-  ["Starter Deck – Animal Kingdom Pirates", "onepiece", "Rara", false, "Mazo temático de Kaido y su tripulación."],
-  ["Álbum Oficial One Piece TCG", "onepiece", "Común", false, "Carpeta con 9 slots por hoja, 20 hojas."],
-  ["Playmat Oficial – Going Merry", "onepiece", "Rara", false, "Base de juego de tela con diseño oficial."],
+  [
+    "Starter Deck ST-22 Ace & Newgate",
+    "onepiece",
+    "Rara",
+    true,
+    "Starter Deck ST-22 Ace & Newgate listo para jugar del One Piece Card Game.",
+    "assets/productos/ace.png"
+  ],
+  [
+    "Starter Deck ST-14 3D2Y",
+    "onepiece",
+    "Rara",
+    true,
+    "Starter Deck ST-14 3D2Y listo para jugar del One Piece Card Game.",
+    "assets/productos/st14.png"
+  ],
+  [
+    "Starter Deck ST-35 Sabo",
+    "onepiece",
+    "Rara",
+    false,
+    "Starter Deck ST-35 Sabo listo para jugar del One Piece Card Game.",
+    "assets/productos/sabo.png"
+  ],
+  [
+    "Starter Deck ST-33 Kuzan",
+    "onepiece",
+    "Rara",
+    true,
+    "Starter Deck ST-33 Kuzan listo para jugar del One Piece Card Game.",
+    "assets/productos/kuzan.png"
+  ],
+  [
+    "Double Pack Set Vol. 11",
+    "onepiece",
+    "Rara",
+    false,
+    "Double Pack Set Vol. 11 del One Piece Card Game con sobres y carta DON!! especial.",
+    "assets/productos/negro.png"
+  ],
+  [
+    "The Best Vol. 2 Booster Box",
+    "onepiece",
+    "Ultra Rara",
+    false,
+    "Booster Box de The Best Vol. 2 (PRB-02) del One Piece Card Game.",
+    "assets/productos/best.png"
+  ],
+  [
+    "Royal Blood Booster Box",
+    "onepiece",
+    "Ultra Rara",
+    false,
+    "Booster Box de Royal Blood (OP-10) del One Piece Card Game.",
+    "assets/productos/royal.png"
+  ],
+  [
+    "Learn Together Deck Set",
+    "onepiece",
+    "Ultra Rara",
+    false,
+    "Learn Together Deck Set del One Piece Card Game para aprender a jugar en pareja.",
+    "assets/productos/colores.png"
+  ],
 
   // ---------- MAGIC: THE GATHERING ----------
-  ["Play Booster Box – The Hobbit", "magic", "Común", true, "36 sobres Play Booster de la edición temática."],
-  ["Commander Deck – Eldrazi Incursion", "magic", "Rara", true, "Mazo listo para jugar en formato Commander."],
-  ["Collector Booster Box", "magic", "Secreta", true, "Sobres premium con cartas foil garantizadas."],
-  ["Bundle – Bloomburrow", "magic", "Rara", false, "Incluye 9 sobres, dados y caja de almacenaje."],
-  ["Draft Booster – Duskmourn", "magic", "Común", false, "Sobre individual pensado para draft."],
-  ["Mazo Precons – Modern Horizons", "magic", "Ultra Rara", false, "Mazo preconstruido competitivo."],
-  ["Fat Pack – Foundations", "magic", "Rara", false, "Pack completo con accesorios de juego."],
-  ["Caja de Almacenaje 400 Cartas", "magic", "Común", false, "Deck box rígida con separadores."],
+  [
+    "Final Fantasy VIII: Children of Fate Scene Box",
+    "magic",
+    "Rara",
+    true,
+    "Scene Box de Magic: The Gathering – Final Fantasy VIII: Children of Fate con cartas de escena y sobres Play Booster.",
+    "assets/productos/final.png"
+  ],
+  [
+    "The Hobbit Play Booster Box",
+    "magic",
+    "Ultra Rara",
+    true,
+    "Play Booster Box de Magic: The Gathering – The Hobbit.",
+    "assets/productos/hobbit.png"
+  ],
+  [
+    "Teenage Mutant Ninja Turtles Pizza Bundle",
+    "magic",
+    "Ultra Rara",
+    true,
+    "Pizza Bundle de Magic: The Gathering x Teenage Mutant Ninja Turtles con sobres y contenido exclusivo.",
+    "assets/productos/tortuga.png"
+  ],
+  [
+    "Marvel Super Heroes Collector Booster Box",
+    "magic",
+    "Ultra Rara",
+    false,
+    "Collector Booster Box de Magic: The Gathering – Marvel Super Heroes.",
+    "assets/productos/super.png"
+  ],
+  [
+    "Marvel Super Heroes Jumpstart Booster Box",
+    "magic",
+    "Rara",
+    false,
+    "Jumpstart Booster Box de Magic: The Gathering – Marvel Super Heroes.",
+    "assets/productos/jump.png"
+  ],
+  [
+    "Tarkir: Dragonstorm Collector Booster Box",
+    "magic",
+    "Ultra Rara",
+    false,
+    "Collector Booster Box de Magic: The Gathering – Tarkir: Dragonstorm.",
+    "assets/productos/tarkir.png"
+  ],
+  [
+    "Lorehold Spirit Commander Deck",
+    "magic",
+    "Rara",
+    false,
+    "Commander Deck de Strixhaven: Lorehold Spirit listo para jugar.",
+    "assets/productos/lore.png"
+  ],
+  [
+    "Prismari Artistry Commander Deck",
+    "magic",
+    "Rara",
+    false,
+    "Commander Deck de Strixhaven: Prismari Artistry listo para jugar.",
+    "assets/productos/prismari.png"
+  ],
 
   // ---------- DRAGON BALL SUPER ----------
-  ["Booster Box – Blazing Aura (FS02)", "dbs", "Común", true, "24 sobres de la serie Fusion World."],
-  ["Starter Deck – Saiyan Legacy", "dbs", "Rara", true, "Mazo temático listo para jugar."],
-  ["Premium Pack Set – 2025", "dbs", "Ultra Rara", false, "Set premium con cartas de arte especial."],
-  ["Sobre Individual – Fusion World", "dbs", "Común", false, "Sobre suelto de la última expansión."],
-  ["Playmat – Goku Ultra Instinct", "dbs", "Rara", false, "Base de juego con estampado oficial."],
-  ["Álbum Coleccionable DBS", "dbs", "Común", false, "Carpeta oficial de 180 cartas de capacidad."],
+  [
+    "Story Booster 01",
+    "dbs",
+    "Ultra Rara",
+    true,
+    "Story Booster 01 (ST01) de Dragon Ball Super Card Game Fusion World.",
+    "assets/productos/01.png"
+  ],
+  [
+    "Fusion World FB10 Booster Box",
+    "dbs",
+    "Ultra Rara",
+    true,
+    "Booster Box FB10 de Dragon Ball Super Card Game Fusion World.",
+    "assets/productos/10.png"
+  ],
+  [
+    "Starter Deck EX FS11",
+    "dbs",
+    "Rara",
+    false,
+    "Starter Deck EX FS11 de Dragon Ball Super Card Game Fusion World listo para jugar.",
+    "assets/productos/11.png"
+  ],
+  [
+    "Starter Deck EX FS12",
+    "dbs",
+    "Rara",
+    false,
+    "Starter Deck EX FS12 de Dragon Ball Super Card Game Fusion World listo para jugar.",
+    "assets/productos/12.png"
+  ],
+  [
+    "Starter Deck FS08 Vegeta (Mini) Super Saiyan 3",
+    "dbs",
+    "Rara",
+    false,
+    "Starter Deck FS08 Vegeta (Mini) Super Saiyan 3 de Dragon Ball Super Card Game Fusion World.",
+    "assets/productos/08.png"
+  ],
+  [
+    "Starter Deck FS07 Vegeta (Mini)",
+    "dbs",
+    "Rara",
+    false,
+    "Starter Deck FS07 Vegeta (Mini) de Dragon Ball Super Card Game Fusion World.",
+    "assets/productos/07.png"
+  ],
 
   // ---------- DIGIMON CARD GAME ----------
-  ["Booster Box – BT-19", "digimon", "Común", true, "24 sobres de la expansión más reciente."],
-  ["Starter Deck – Gaia Red", "digimon", "Rara", true, "Mazo inicial listo para jugar."],
-  ["Tamer Set – Special Edition", "digimon", "Ultra Rara", false, "Set especial con sleeves y playmat."],
-  ["Sobre Individual – EX Booster", "digimon", "Común", false, "Sobre suelto de expansión limitada."],
-  ["Deck Box Oficial Digimon", "digimon", "Común", false, "Caja rígida con capacidad para 100 cartas."],
+  [
+    "Timeless Bonds Booster Box",
+    "digimon",
+    "Ultra Rara",
+    true,
+    "Booster Box de Digimon Card Game: Timeless Bonds.",
+    "assets/productos/time.png"
+  ],
+  [
+    "Time Stranger Booster Box",
+    "digimon",
+    "Ultra Rara",
+    true,
+    "Booster Box de Digimon Card Game: Time Stranger.",
+    "assets/productos/time1.png"
+  ],
+  [
+    "Sinister Order Booster Box",
+    "digimon",
+    "Ultra Rara",
+    false,
+    "Booster Box de Digimon Card Game: Sinister Order.",
+    "assets/productos/gini.png"
+  ],
+  [
+    "Starter Deck ST-24 Digimon Data Squad",
+    "digimon",
+    "Rara",
+    false,
+    "Starter Deck ST-24 Digimon Data Squad listo para jugar del Digimon Card Game.",
+    "assets/productos/24.png"
+  ],
+  [
+    "Starter Deck ST-23 Digimon Beatbreak",
+    "digimon",
+    "Rara",
+    false,
+    "Starter Deck ST-23 Digimon Beatbreak listo para jugar del Digimon Card Game.",
+    "assets/productos/23.png"
+  ],
 
   // ---------- RIFTBOUND (LEAGUE OF LEGENDS) ----------
-  ["Booster Box – Vendetta", "riftbound", "Común", true, "Caja sellada de la primera expansión oficial."],
-  ["Starter Deck – Noxus Aggro", "riftbound", "Rara", true, "Mazo temático de la facción de Noxus."],
-  ["Proving Grounds Bundle", "riftbound", "Ultra Rara", false, "Pack de introducción con accesorios."],
-  ["Sobre Individual – Origins", "riftbound", "Común", false, "Sobre suelto de la colección Origins."],
-  ["Playmat Oficial – Piltover", "riftbound", "Rara", false, "Base de juego con arte exclusivo."],
+  [
+    "Vendetta Booster Box",
+    "riftbound",
+    "Ultra Rara",
+    true,
+    "Booster Box de Riftbound: Vendetta.",
+    "assets/productos/vend.png"
+  ],
+  [
+    "Unleashed Booster Box",
+    "riftbound",
+    "Ultra Rara",
+    true,
+    "Booster Box de Riftbound: Unleashed.",
+    "assets/productos/unle.png"
+  ],
+  [
+    "Spiritforge Booster Box",
+    "riftbound",
+    "Ultra Rara",
+    false,
+    "Booster Box de Riftbound: Spiritforge.",
+    "assets/productos/spir.png"
+  ],
+  [
+    "Spiritforge Pre-Rift Kit",
+    "riftbound",
+    "Rara",
+    false,
+    "Pre-Rift Kit de Riftbound: Spiritforge para iniciarse en el juego.",
+    "assets/productos/pre.png"
+  ],
+  [
+    "Jinx Champion Deck",
+    "riftbound",
+    "Rara",
+    false,
+    "Champion Deck de Jinx listo para jugar en Riftbound: League of Legends TCG.",
+    "assets/productos/jinx.png"
+  ],
 
   // ---------- STAR WARS: UNLIMITED ----------
-  ["Booster Box – Twilight of the Republic", "starwars", "Común", true, "Caja de 24 sobres de la expansión galáctica."],
-  ["Two-Player Starter Set", "starwars", "Rara", true, "Set para dos jugadores listo para arrancar."],
-  ["Sobre Individual – Spark of Rebellion", "starwars", "Común", false, "Sobre suelto de la primera expansión."],
-  ["Deck Box – Darth Vader Edition", "starwars", "Rara", false, "Caja rígida temática del Lado Oscuro."],
+  [
+    "Secrets of Power Booster Box",
+    "starwars",
+    "Ultra Rara",
+    true,
+    "Booster Box de Star Wars Unlimited: Secrets of Power.",
+    "assets/productos/secrets.png"
+  ],
+  ["Two-Player Starter Set", "starwars", "Rara", true, "Set para dos jugadores listo para arrancar.", "assets/productos/law.png"],
+  [
+    "Chancellor Palpatine Spotlight Deck",
+    "starwars",
+    "Rara",
+    false,
+    "Spotlight Deck de Chancellor Palpatine listo para jugar en Star Wars Unlimited: Secrets of Power.",
+    "assets/productos/secret.png"
+  ],
+  [
+    "Jabba the Hutt Spotlight Deck",
+    "starwars",
+    "Rara",
+    false,
+    "Spotlight Deck de Jabba the Hutt listo para jugar en Star Wars Unlimited: A Lawless Time.",
+    "assets/productos/lawl.png"
+  ],
 
   // ---------- FIGURAS & COLECCIONABLES ----------
-  ["Figura Articulada – Ken (Street Fighter)", "figuras", "Ultra Rara", true, "Figura articulada de colección con base."],
-  ["Estatua – Shanks (One Piece)", "figuras", "Secreta", true, "Estatua premium de resina, edición limitada."],
-  ["Figura Coleccionable – Goku Ultra Instinct", "figuras", "Ultra Rara", false, "Figura de alta calidad con detalles pintados a mano."],
-  ["Funko Pop – Charizard", "figuras", "Rara", true, "Edición especial brillante de la línea Pokémon."],
-  ["Diorama – Luffy Gear 5", "figuras", "Secreta", false, "Pieza de colección con base temática incluida."],
-  ["Figura Articulada – Nightmare Moon", "figuras", "Ultra Rara", false, "Figura de edición limitada con accesorios."],
-  ["Busto Coleccionable – Darth Vader", "figuras", "Rara", false, "Busto a escala con acabado premium."],
-  ["Set de Dados Metálicos – Legends Edition", "figuras", "Común", false, "Set de 7 dados metálicos para TTRPG."],
-  ["Sleeves Premium 100u – Kodiak Edition", "figuras", "Común", false, "Protectores de cartas con diseño exclusivo."],
-  ["Caja de Almacenaje Ilustrada – Legends", "figuras", "Rara", false, "Caja temática para guardar tus cartas sueltas."],
+  [
+    "Ken Action Figure",
+    "figuras",
+    "Ultra Rara",
+    true,
+    "Figura articulada de Ken de Street Fighter para colección y exhibición.",
+    "assets/productos/ken.png"
+  ],
+  [
+    "Shanks Figure",
+    "figuras",
+    "Ultra Rara",
+    true,
+    "Figura de Shanks de One Piece para colección y exhibición.",
+    "assets/productos/shanks.png"
+  ],
+  [
+    "Goku Ultra Instinct Action Figure",
+    "figuras",
+    "Ultra Rara",
+    false,
+    "Figura articulada de Goku Ultra Instinct para colección y exhibición.",
+    "assets/productos/goku.png"
+  ],
+  [
+    "Charizard Funko Pop! #843",
+    "figuras",
+    "Rara",
+    true,
+    "Figura Funko Pop! #843 de Charizard de Pokémon para colección y exhibición.",
+    "assets/productos/chari.png"
+  ],
+  [
+    "Kirito Figure",
+    "figuras",
+    "Ultra Rara",
+    false,
+    "Figura de Kirito de Sword Art Online para colección y exhibición.",
+    "assets/productos/nv.png"
+  ],
+  [
+    "Portgas D. Ace Action Figure",
+    "figuras",
+    "Ultra Rara",
+    false,
+    "Figura articulada de Portgas D. Ace de One Piece para colección y exhibición.",
+    "assets/productos/luck.png"
+  ],
+  [
+    "Darth Vader Action Figure",
+    "figuras",
+    "Rara",
+    false,
+    "Figura articulada de Darth Vader de Star Wars para colección y exhibición.",
+    "assets/productos/darth.png"
+  ],
+  [
+    "Charizard Figure",
+    "figuras",
+    "Ultra Rara",
+    false,
+    "Figura de Charizard de Pokémon para colección y exhibición.",
+    "assets/productos/charizard.png"
+  ],
 ];
 
 /* Genera productos adicionales para completar ~70 sin repetir contenido real */
@@ -154,7 +527,7 @@ function padProducts(list, target) {
   return list.concat(extra);
 }
 
-const FULL_LIST = padProducts(RAW_PRODUCTS, 70);
+const FULL_LIST = RAW_PRODUCTS;
 
 const PRODUCTS = FULL_LIST.map((p, idx) => ({
   id: idx + 1,
