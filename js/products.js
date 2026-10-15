@@ -1,5 +1,5 @@
 /* ============================================================
-   KODIAK LEGENDS — Datos de productos (PLACEHOLDER)
+   KODIAK TCG — Datos de productos (PLACEHOLDER)
    Reemplazar nombre, img y descripcion por los reales.
    Catálogo informativo: NO se muestran precios.
 

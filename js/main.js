@@ -1,9 +1,9 @@
 /* ============================================================
-   KODIAK LEGENDS — Lógica compartida
+   KODIAK TCG — Lógica compartida
    Contacto: solo redes sociales (Instagram / TikTok), sin WhatsApp.
    ============================================================ */
-const IG_URL = "https://www.instagram.com/kodiak_legends/";
-const TIKTOK_URL = "https://www.tiktok.com/@kodiaklegends";
+const IG_URL = "https://www.instagram.com/kodiak_tcg/";
+const TIKTOK_URL = "https://www.tiktok.com/@kodiak_tcg";
 
 /* Colores de fondo para el marco de cada categoría mientras no hay foto real.
    Las fotos reales van cuadradas, 800x800px, en assets/productos/ */

@@ -1,5 +1,5 @@
 /* ============================================================
-   KODIAK LEGENDS — Guías por juego
+   KODIAK TCG — Guías por juego
    Cada tema tiene:
    - icon: emoji para la tarjeta
    - teaser: texto CORTO que se ve en la tarjeta (lo justo)

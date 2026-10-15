@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Kodiak Legends — sitio web
+# Kodiak TCG — sitio web
 
 ## Estructura
 - `index.html` — página principal (hero tipo escudo, carrusel de destacados con autoplay, categorías, redes).
@@ -37,8 +37,8 @@ Guardarlas en `assets/productos/` y referenciarlas desde `products.js`.
 
 ## Redes (ya cargadas)
 En `js/main.js`:
-- Instagram: https://www.instagram.com/kodiak_legends/
-- TikTok: https://www.tiktok.com/@kodiaklegends
+- Instagram: https://www.instagram.com/kodiak_tcg/
+- TikTok: https://www.tiktok.com/@kodiak_tcg
 
 ## Deploy
 Mismo flujo de siempre: GitHub → Vercel.
